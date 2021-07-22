@@ -1,0 +1,1 @@
+web: gunicorn bcSolutions.wsgi --log-file

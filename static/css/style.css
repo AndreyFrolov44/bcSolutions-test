@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1020px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.pagination{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.cart{
+    padding: 15px;
+    border: 2px solid #000;
+    width: 600px;
+    margin: 50px auto;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Block detail{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <a href="{% url 'index' %}">Index page</a>
+    <div class="cart">
+        <h1>Block Detail</h1>
+        <p>Hash: {{object.hash}}</p>
+        <p>Height: {{object.height}}</p>
+        <p>Date: {{object.date}}</p>
+        <p>Miner: {{object.miner}}</p>
+        <p>Transactions: {{object.transaction}}</p>
+    </div>
+</div>
+{% endblock content %}
